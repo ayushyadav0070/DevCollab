@@ -14,4 +14,3 @@ class GithubAdapter(DefaultSocialAccountAdapter):
             user.avatar_url = data.get('avatar_url')
             user.full_name = data.get('name','')
         return user
-    # mazaaa hi aa gya
