@@ -1,0 +1,58 @@
+/projects/templates/
+.venv
+.env
+*.rest
+test.txt
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+
+# Django stuff
+*.log
+local_settings.py
+media/
+staticfiles/
+static_root/
+
+# Environment variables
+.env
+.venv
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Django migrations (optional - usually keep them)
+# */migrations/   ← Uncomment only if you want to ignore all migrations
+
+# Logs & Cache
+logs/
+*.log
+.cache
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
